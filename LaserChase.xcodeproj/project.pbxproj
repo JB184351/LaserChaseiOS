@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303BFF76212D279800C0013F /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303BFF75212D279800C0013F /* Animal.swift */; };
+		303BFF78212D297C00C0013F /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303BFF77212D297C00C0013F /* MainMenu.swift */; };
 		303CB9772123C3480002D43A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CB9762123C3480002D43A /* AppDelegate.swift */; };
-		303CB9792123C3480002D43A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 303CB9782123C3480002D43A /* GameScene.sks */; };
-		303CB97B2123C3480002D43A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 303CB97A2123C3480002D43A /* Actions.sks */; };
 		303CB97D2123C3480002D43A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CB97C2123C3480002D43A /* GameScene.swift */; };
 		303CB97F2123C3480002D43A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303CB97E2123C3480002D43A /* GameViewController.swift */; };
 		303CB9822123C3480002D43A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303CB9802123C3480002D43A /* Main.storyboard */; };
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303BFF75212D279800C0013F /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		303BFF77212D297C00C0013F /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		303CB9732123C3480002D43A /* LaserChase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserChase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303CB9762123C3480002D43A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		303CB9782123C3480002D43A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		303CB97A2123C3480002D43A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		303CB97C2123C3480002D43A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		303CB97E2123C3480002D43A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		303CB9812123C3480002D43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,11 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				303CB9762123C3480002D43A /* AppDelegate.swift */,
-				303CB9782123C3480002D43A /* GameScene.sks */,
-				303CB97A2123C3480002D43A /* Actions.sks */,
 				303CB97C2123C3480002D43A /* GameScene.swift */,
 				303CB97E2123C3480002D43A /* GameViewController.swift */,
 				303CB9802123C3480002D43A /* Main.storyboard */,
+				303BFF77212D297C00C0013F /* MainMenu.swift */,
+				303BFF75212D279800C0013F /* Animal.swift */,
 				303CB9832123C34A0002D43A /* Assets.xcassets */,
 				303CB9852123C34A0002D43A /* LaunchScreen.storyboard */,
 				303CB9882123C34A0002D43A /* Info.plist */,
@@ -239,10 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				303CB9822123C3480002D43A /* Main.storyboard in Resources */,
-				303CB9792123C3480002D43A /* GameScene.sks in Resources */,
 				303CB9842123C34A0002D43A /* Assets.xcassets in Resources */,
 				303CB9872123C34A0002D43A /* LaunchScreen.storyboard in Resources */,
-				303CB97B2123C3480002D43A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303BFF78212D297C00C0013F /* MainMenu.swift in Sources */,
 				303CB97D2123C3480002D43A /* GameScene.swift in Sources */,
+				303BFF76212D279800C0013F /* Animal.swift in Sources */,
 				303CB97F2123C3480002D43A /* GameViewController.swift in Sources */,
 				303CB9772123C3480002D43A /* AppDelegate.swift in Sources */,
 			);
