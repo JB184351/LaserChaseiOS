@@ -11,7 +11,9 @@ import SpriteKit
 
 class GameScene: SKScene {
     
-    var backGround = SKSpriteNode()
+    var backGround: SKEmitterNode!
+    var cat:SKSpriteNode!
+    
     
     @objc func tap(recognizer: UIGestureRecognizer){
         // Determines touch location
@@ -36,7 +38,7 @@ class GameScene: SKScene {
         view.addGestureRecognizer(recognizer)
 
         
-        backGround = SKSpriteNode(imageNamed: "spr_menuScreen_strip11.imageset")
+       // backGround = SKEmitterNode(imageNamed: "spr_menuScreen_strip11.imageset")
         backGround.setScale(0.5)
         
         backGround.position = CGPoint(x: self.frame.width, y: 0 + backGround.frame.height)
@@ -44,6 +46,9 @@ class GameScene: SKScene {
  
     }
     
+    override func update(_ currentTime: TimeInterval) {
+        <#code#>
+    }
     
 /*
     var backGround = SKSpriteNode()
