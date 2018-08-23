@@ -9,7 +9,20 @@
 import SpriteKit
 
 class MainMenuScene: SKScene {
-    override func didMove(to view: SKView) {
-        <#code#>
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let location = touch.location(in: self)
+            
+            if atPoint(location).name == "Play" {
+                // File name is the name of the .sks file
+                if let scene = GamePlayScene(fileNamed: "PlayScene"){
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                    view!.presentScene(scene, transition: SKTransition.doorsOpenVertical(withDuration: TimeInterval(2)))
+                }
+            }
+        }
     }
 }

@@ -13,6 +13,6 @@ import SpriteKit
 class GamePlayScene: SKScene{
     
     override func didMove(to view: SKView) {
-        <#code#>
+        
     }
 }
